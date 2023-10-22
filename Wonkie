@@ -453,8 +453,8 @@ function _BaseCamera()
 	local ZERO_VECTOR2 = Vector2.new(0,0)
 	local ZERO_VECTOR3 = Vector3.new(0,0,0)
 	
-	local TOUCH_SENSITIVTY = Vector2.new(0.00945 * math.pi, 0.003375 * math.pi)
-	local MOUSE_SENSITIVITY = Vector2.new( 0.002 * math.pi, 0.0015 * math.pi )
+	local TOUCH_SENSITIVTY = Vector2.new(0.00445 * math.pi, 0.000375 * math.pi)
+	local MOUSE_SENSITIVITY = Vector2.new( 0.0002 * math.pi, 0.00015 * math.pi )
 	
 	local SEAT_OFFSET = Vector3.new(0,5,0)
 	local VR_SEAT_OFFSET = Vector3.new(0,4,0)
